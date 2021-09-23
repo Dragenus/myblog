@@ -1,5 +1,6 @@
 package com.myblog.controller;
 
+import com.myblog.annotation.AccessLimit;
 import com.myblog.entity.Message;
 import com.myblog.entity.User;
 import com.myblog.service.MessageService;
@@ -42,6 +43,7 @@ public class MessageController {
 
     //    新增留言
     @PostMapping("/message")
+    @AccessLimit(seconds = 15, maxCount = 3)
     public String post(Message message, HttpSession session, Model model) {
         User user = (User) session.getAttribute("user");
         //设置头像
