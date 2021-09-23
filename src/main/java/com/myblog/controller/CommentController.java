@@ -1,5 +1,6 @@
 package com.myblog.controller;
 
+import com.myblog.annotation.AccessLimit;
 import com.myblog.entity.Comment;
 import com.myblog.entity.User;
 import com.myblog.queryvo.DetailedBlog;
@@ -42,6 +43,7 @@ public class CommentController {
 
     //新增评论
     @PostMapping("/comments")
+    @AccessLimit(seconds = 15, maxCount = 3)
     public String post(Comment comment, HttpSession session, Model model) {
         Long blogId = comment.getBlogId();
         User user = (User) session.getAttribute("user");
