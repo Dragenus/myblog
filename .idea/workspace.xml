@@ -9,29 +9,12 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16a87a03-e922-45cd-aa71-d4ed323101c1" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/log/blog-pro.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/blog-pro.log.2021-09-10.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/blog-pro.log.2021-09-11.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/blog-pro.log.2021-09-12.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/blog-pro.log.2021-09-13.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/blog-pro.log.2021-09-14.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/blog-pro.log.2021-09-15.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/blog-pro.log.2021-09-16.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/blog-pro.log.2021-09-17.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +37,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -101,7 +85,7 @@
       <workItem from="1641876412495" duration="5232000" />
       <workItem from="1641894860560" duration="184000" />
       <workItem from="1641895156532" duration="28000" />
-      <workItem from="1641895218708" duration="1967000" />
+      <workItem from="1641895218708" duration="2483000" />
     </task>
     <servers />
   </component>
