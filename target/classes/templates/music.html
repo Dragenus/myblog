@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragenus-音乐盒</title>
+
+    <link href="../static/images/favicon.ico" th:href="@{/images/me.jpg}" rel="icon" type="image/x-ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css" th:href="@{/css/me.css}">
+    <link rel="stylesheet" href="../static/lib/music/css/zplayer.min.css" th:href="@{/lib/music/css/zplayer.min.css}" />
+    <script type="text/javascript" src="../static/lib/music/js/zplayer.min.js" th:src="@{/lib/music/js/zplayer.min.js}"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+
+
+
+</head>
+<body>
+
+<!--导航-->
+<nav class="gird-header">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui olive header item" style="font-family: STSong">Dragenus</h2>
+            <!--<div class="right m-item item m-mobile-hide">-->
+                <a href="#" target="_blank" th:href="@{/}" class="m-item item m-mobile-hide"><i class="home icon"></i>首页</a>
+                <a href="#" target="_blank" th:href="@{/types/-1}" class="m-item item m-mobile-hide"><i class="clone outline icon"></i>分类</a>
+                <a href="#" target="_blank" th:href="@{/archives}" class="m-item item m-mobile-hide"><i class="clock icon"></i>时间轴</a>
+                <a href="#" th:href="@{/music}" class="active m-item item m-mobile-hide"><i class="music icon"></i>音乐盒</a>
+                <a href="#" target="_blank" th:href="@{/message}" class="m-item item m-mobile-hide"><i class="book icon"></i>留言板</a>
+                <a href="#" target="_blank" th:href="@{/friends}" class="m-item item m-mobile-hide"><i class="pencil alternate icon"></i>友人帐</a>
+                <a href="#" target="_blank" th:href="@{/picture}" class="m-item item m-mobile-hide"><i class="image icon"></i>照片墙</a>
+                <a href="#" target="_blank" th:href="@{/about}" class="m-item item m-mobile-hide"><i class="info icon"></i>关于我</a>
+            <!--</div>-->
+            <div class="right m-item item m-mobile-hide">
+                <form name="search" action="#" th:action="@{/search}" method="post" target="_blank">
+                    <div class="ui icon transparent input m-margin-tb-tiny" style="color: white">
+                        <input style="color: white" type="text" name="query" placeholder="Search...." th:value="${query}">
+                        <i onclick="document.forms['search'].submit()" class="search link icon"></i>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+
+<!--顶部图片-->
+<div class="m-bg-type_outer" style="width: 100%;height: 40%">
+    <img src="../static/images/music.jpg" th:src="@{/images/music.jpg}" alt="" class="ui m-bg image" style="width: 100%;height: 100%">
+    <div class="m-bg-class_cover">
+        <div class="ui container" style="position: relative ;bottom: -540px;">
+            <div class="m-font-size-title m-right-bottom" align="center" style="font-family:'STXingkai'">音乐盒</div>
+            <div class="m-font-size-text-init-title m-margin-top" align="center">将进酒，杯莫停，与君歌一曲，请君为我倾耳听</div>
+        </div>
+    </div>
+</div>
+
+<div class="ui m-margin- m-opacity" align="center">
+    <div class="ui container box-shadow-max">
+        <div id="player2"></div>
+    </div>
+</div>
+<script>
+    var zp2 = new zplayer({
+        element: document.getElementById("player2"),
+        lrcStart: 1,/*是否开启歌词功能 ，默认false（为true时musics集合中需要传入lrc字段。）*/
+        musics: [{
+            title: "富士山下",
+            author: "陈奕迅",
+            //把网易云音乐的id 复制到 http://music.163.com/song/media/outer/url?id= .mp3 里面
+            url: "http://music.163.com/song/media/outer/url?id=65766.mp3",
+            pic: "http://p1.music.126.net/PcJq6i7zMcPgudejdn1yeg==/109951163256302356.jpg?param=300x300",
+            lrc: "[ti:富士山下]\n" +
+                "[ar:陈奕迅]\n" +
+                "[00:00.00]\n" +
+                "[00:22.29]拦路雨偏似雪花 饮泣的你冻吗\n" +
+                "[00:26.66]这风褛我给你磨到有襟花\n" +
+                "[00:31.15]连掉了迹也不怕 怎么始终牵挂\n" +
+                "[00:35.81]苦心选中今天想车你回家\n" +
+                "[00:40.36]原谅我不再送花 伤口应要结疤\n" +
+                "[00:44.68]花瓣铺满心里坟场才害怕\n" +
+                "[00:49.42]如若你非我不嫁 彼此终必火化\n" +
+                "[00:54.09]一生一世等一天需要代价\n" +
+                "[00:58.61]谁都只得那双手 靠拥抱亦难任你拥有\n" +
+                "[01:03.61]要拥有必先懂失去怎接受\n" +
+                "[01:08.04]曾沿着雪路浪游 为何为好事泪流\n" +
+                "[01:12.90]谁能凭爱意要富士山私有\n" +
+                "[01:17.46]何不把悲哀感觉 假设是来自你虚构\n" +
+                "[01:22.01]试管里找不到它染污眼眸\n" +
+                "[01:26.53]前尘硬化像石头 随缘地抛下便逃走\n" +
+                "[01:34.16]我绝不罕有 往街里绕过一周 我便化乌有\n" +
+                "[01:42.63]情人节不要说穿 只敢抚你发端\n" +
+                "[01:47.52]这种姿态可会令你更心酸\n" +
+                "[01:51.84]留在汽车里取暖 应该怎么规劝\n" +
+                "[01:56.59]怎么可以将手腕忍痛划损\n" +
+                "[02:01.12]人活到几岁算短 失恋只有更短\n" +
+                "[02:05.77]归家需要几里路谁能预算\n" +
+                "[02:10.30]忘掉我跟你恩怨 樱花开了几转\n" +
+                "[02:14.83]东京之旅一早比一世遥远\n" +
+                "[02:19.41]谁都只得那双手 靠拥抱亦难任你拥有\n" +
+                "[02:24.48]要拥有必先懂失去怎接受\n" +
+                "[02:29.20]曾沿着雪路浪游 为何为好事泪流\n" +
+                "[02:33.70]谁能凭爱意要富士山私有\n" +
+                "[02:38.30]何不把悲哀感觉 假设是来自你虚构\n" +
+                "[02:42.81]试管里找不到它染污眼眸\n" +
+                "[02:47.23]前尘硬化像石头 随缘地抛下便逃走\n" +
+                "[02:54.48]我绝不罕有 往街里绕过一周 我便化乌有\n" +
+                "[03:03.22]谁都只得那双手 靠拥抱亦难任你拥有\n" +
+                "[03:08.84]要拥有必先懂失去怎接受\n" +
+                "[03:13.63]曾沿着雪路浪游 为何为好事泪流\n" +
+                "[03:18.17]谁能凭爱意要富士山私有\n" +
+                "[03:22.80]何不把悲哀感觉 假设是来自你虚构\n" +
+                "[03:27.59]试管里找不到它染污眼眸\n" +
+                "[03:32.50]前尘硬化像石头 随缘地抛下便逃走\n" +
+                "[03:38.91]\n" +
+                "[03:40.94]我绝不罕有 往街里绕过一周 我便化乌有\n" +
+                "[03:50.54]\n" +
+                "[03:51.81]你还嫌不够 我把这陈年风褛 送赠你解咒\n" +
+                "[04:03.11]\n" +
+                "[04:08.19]\n"
+        }]
+    })
+    zp2.init();
+
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,1462 @@
+2021-09-16 21:35:17.878  INFO 15464 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 15464 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 21:35:17.910  INFO 15464 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 21:35:29.889  INFO 15464 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 15.88 seconds (JVM running for 20.098)
+2021-09-16 21:36:49.943  INFO 15464 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 21:36:51.600  INFO 15464 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 21:36:54.376  INFO 15464 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:36:54.447  INFO 15464 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:36:58.831  INFO 15464 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/blog/70', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blog', args=[70, {}]}
+2021-09-16 21:36:59.394  INFO 15464 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : blog
+2021-09-16 21:37:00.963  INFO 15464 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:37:00.969  INFO 15464 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:37:01.133  INFO 15464 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/comments/70', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.CommentController.comments', args=[70, {}]}
+2021-09-16 21:37:01.176  INFO 15464 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Result : blog :: commentList
+2021-09-16 21:37:33.816  INFO 15464 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:37:33.822  INFO 15464 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:37:48.094  INFO 15464 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:37:48.100  INFO 15464 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:37:52.768  INFO 15464 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:37:52.774  INFO 15464 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:41:55.357  INFO 15464 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:41:55.362  INFO 15464 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:42:10.726  INFO 1736 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 1736 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 21:42:10.726  INFO 1736 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 21:42:14.381  INFO 1736 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 5.291 seconds (JVM running for 7.944)
+2021-09-16 21:42:15.535  INFO 1736 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:42:15.555  INFO 1736 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:42:21.641  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:42:21.648  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:42:24.152  INFO 1736 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:42:24.159  INFO 1736 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:42:28.367  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:42:28.376  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:42:29.105  INFO 1736 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:42:29.111  INFO 1736 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:42:35.935  INFO 1736 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:42:35.941  INFO 1736 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:42:38.528  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:42:38.535  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:42:40.190  INFO 1736 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:42:40.195  INFO 1736 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:42:40.952  INFO 1736 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:42:40.958  INFO 1736 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:42:43.017  INFO 1736 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:42:43.024  INFO 1736 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:42:46.151  WARN 1736 --- [http-nio-8080-exec-5] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-09-16 21:42:46.742  INFO 1736 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:42:46.746  INFO 1736 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:42:48.386  INFO 1736 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:42:48.395  INFO 1736 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:42:53.332  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:42:53.336  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:42:54.763  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:42:54.769  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:46:44.881  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:46:44.886  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:46:46.889  INFO 1736 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:46:46.895  INFO 1736 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:46:50.761  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:46:50.769  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:46:53.531  INFO 1736 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:46:53.539  INFO 1736 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:46:55.513  INFO 1736 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:46:55.520  INFO 1736 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:47:02.699  INFO 1736 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:47:02.703  INFO 1736 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:47:05.849  INFO 1736 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:47:05.853  INFO 1736 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:47:07.586  INFO 1736 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:47:07.590  INFO 1736 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:47:21.685  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:47:21.689  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:47:30.943  INFO 1736 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:47:30.948  INFO 1736 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:47:35.312  WARN 1736 --- [http-nio-8080-exec-8] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-09-16 21:47:35.546  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:47:35.550  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:47:38.020  INFO 1736 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:47:38.023  INFO 1736 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:47:40.304  WARN 1736 --- [http-nio-8080-exec-9] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-09-16 21:47:40.535  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:47:40.539  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:47:42.296  INFO 1736 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:47:42.299  INFO 1736 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:47:45.837  WARN 1736 --- [http-nio-8080-exec-3] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-09-16 21:47:46.080  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:47:46.084  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:47:47.131  INFO 1736 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:47:47.139  INFO 1736 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:47:49.425  WARN 1736 --- [http-nio-8080-exec-5] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-09-16 21:47:49.662  INFO 1736 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:47:49.666  INFO 1736 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:47:52.923  INFO 1736 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:47:52.927  INFO 1736 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:47:54.142  INFO 1736 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:47:54.148  INFO 1736 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:47:59.932  INFO 1736 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:47:59.939  INFO 1736 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:03.565  WARN 1736 --- [http-nio-8080-exec-2] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-09-16 21:48:03.795  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:48:03.799  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:05.532  INFO 1736 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:48:05.537  INFO 1736 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:09.953  WARN 1736 --- [http-nio-8080-exec-7] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-09-16 21:48:10.184  INFO 1736 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:48:10.188  INFO 1736 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:14.708  INFO 1736 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:48:14.711  INFO 1736 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:18.385  WARN 1736 --- [http-nio-8080-exec-4] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-09-16 21:48:18.592  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:48:18.597  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:22.291  INFO 1736 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:48:22.297  INFO 1736 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:25.232  WARN 1736 --- [http-nio-8080-exec-5] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-09-16 21:48:25.459  INFO 1736 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:48:25.464  INFO 1736 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:29.194  INFO 1736 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:48:29.200  INFO 1736 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:30.176  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:48:30.181  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:31.358  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:48:31.361  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:32.587  INFO 1736 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:48:32.592  INFO 1736 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:41.947  INFO 1736 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 21:48:41.956  INFO 1736 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 21:48:42.236  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:48:42.239  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:47.188  INFO 1736 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/blog/70', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blog', args=[70, {}]}
+2021-09-16 21:48:47.270  INFO 1736 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : blog
+2021-09-16 21:48:47.954  INFO 1736 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:48:47.958  INFO 1736 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:48.079  INFO 1736 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/comments/70', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.CommentController.comments', args=[70, {}]}
+2021-09-16 21:48:48.088  INFO 1736 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : blog :: commentList
+2021-09-16 21:48:53.774  INFO 1736 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blog', args=[68, {}]}
+2021-09-16 21:48:53.780  INFO 1736 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Result : blog
+2021-09-16 21:48:54.488  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:48:54.493  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:54.628  INFO 1736 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.CommentController.comments', args=[68, {}]}
+2021-09-16 21:48:54.629  INFO 1736 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Result : blog :: commentList
+2021-09-16 21:48:57.498  INFO 1736 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/blog/67', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blog', args=[67, {}]}
+2021-09-16 21:48:57.512  INFO 1736 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Result : blog
+2021-09-16 21:48:57.731 ERROR 1736 --- [http-nio-8080-exec-4] c.m.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/blog/test，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:170)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "test"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:696)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2021-09-16 21:48:57.733  WARN 1736 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"]
+2021-09-16 21:48:58.451  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:48:58.456  INFO 1736 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:48:58.674  INFO 1736 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/comments/67', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.CommentController.comments', args=[67, {}]}
+2021-09-16 21:48:58.676  INFO 1736 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : blog :: commentList
+2021-09-16 21:49:15.473  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 21:49:15.482  INFO 1736 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 21:49:15.803  INFO 1736 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:49:15.807  INFO 1736 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:53:35.018  INFO 5428 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 5428 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 21:53:35.021  INFO 5428 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 21:53:38.640  INFO 5428 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 4.453 seconds (JVM running for 7.271)
+2021-09-16 21:53:38.766  INFO 5428 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 21:53:39.077  INFO 5428 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 21:53:40.268  INFO 5428 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:53:40.275  INFO 5428 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:53:43.282  INFO 5428 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 21:53:43.291  INFO 5428 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 21:53:43.574  INFO 5428 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:53:43.582  INFO 5428 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:53:45.792  INFO 5428 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/blog/70', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blog', args=[70, {}]}
+2021-09-16 21:53:45.844  INFO 5428 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Result : blog
+2021-09-16 21:53:46.820  INFO 5428 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:53:46.827  INFO 5428 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:53:46.961  INFO 5428 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/comments/70', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.CommentController.comments', args=[70, {}]}
+2021-09-16 21:53:46.982  INFO 5428 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : blog :: commentList
+2021-09-16 21:54:03.105  INFO 5428 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:54:03.110  INFO 5428 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:54:05.380  INFO 5428 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:54:05.387  INFO 5428 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:54:07.912  INFO 5428 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:54:07.920  INFO 5428 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:55:30.559  WARN 5428 --- [http-nio-8080-exec-8] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-09-16 21:55:30.996  INFO 5428 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:55:31.004  INFO 5428 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:55:32.867  INFO 5428 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 21:55:32.876  INFO 5428 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 21:55:33.202  INFO 5428 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:55:33.207  INFO 5428 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:55:35.049  INFO 5428 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/blog/70', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blog', args=[70, {}]}
+2021-09-16 21:55:35.055  INFO 5428 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : blog
+2021-09-16 21:55:36.000  INFO 5428 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:55:36.005  INFO 5428 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:55:36.134  INFO 5428 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/comments/70', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.CommentController.comments', args=[70, {}]}
+2021-09-16 21:55:36.137  INFO 5428 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : blog :: commentList
+2021-09-16 21:55:37.963  INFO 5428 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blog', args=[69, {}]}
+2021-09-16 21:55:37.969  INFO 5428 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Result : blog
+2021-09-16 21:55:38.654  INFO 5428 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:55:38.659  INFO 5428 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:55:38.944  INFO 5428 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.CommentController.comments', args=[69, {}]}
+2021-09-16 21:55:38.949  INFO 5428 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Result : blog :: commentList
+2021-09-16 21:55:40.718  INFO 5428 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blog', args=[68, {}]}
+2021-09-16 21:55:40.726  INFO 5428 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : blog
+2021-09-16 21:55:41.512  INFO 5428 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:55:41.519  INFO 5428 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:55:41.638  INFO 5428 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.CommentController.comments', args=[68, {}]}
+2021-09-16 21:55:41.640  INFO 5428 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Result : blog :: commentList
+2021-09-16 21:55:43.857  INFO 5428 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/blog/67', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blog', args=[67, {}]}
+2021-09-16 21:55:43.870  INFO 5428 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : blog
+2021-09-16 21:55:44.110  INFO 5428 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/blog/1', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blog', args=[1, {}]}
+2021-09-16 21:55:44.120 ERROR 5428 --- [http-nio-8080-exec-6] c.m.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/blog/1，Exception : {}
+
+com.myblog.NotFoundException: 该博客不存在
+	at com.myblog.service.Impl.BlogServiceImpl.getDetailedBlog(BlogServiceImpl.java:109)
+	at com.myblog.controller.IndexController.blog(IndexController.java:76)
+	at com.myblog.controller.IndexController$$FastClassBySpringCGLIB$$32f4c50f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.myblog.controller.IndexController$$EnhancerBySpringCGLIB$$95a1aa7.blog(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-09-16 21:55:44.135  WARN 5428 --- [http-nio-8080-exec-6] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [com.myblog.NotFoundException: 该博客不存在]
+2021-09-16 21:55:44.802  INFO 5428 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:55:44.808  INFO 5428 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:55:45.029  INFO 5428 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/comments/67', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.CommentController.comments', args=[67, {}]}
+2021-09-16 21:55:45.032  INFO 5428 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : blog :: commentList
+2021-09-16 21:57:53.590  INFO 5428 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/blog/70', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blog', args=[70, {}]}
+2021-09-16 21:57:53.597  INFO 5428 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Result : blog
+2021-09-16 21:57:55.010  INFO 5428 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:57:55.016  INFO 5428 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:57:55.245  INFO 5428 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/comments/70', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.CommentController.comments', args=[70, {}]}
+2021-09-16 21:57:55.248  INFO 5428 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : blog :: commentList
+2021-09-16 21:58:13.600  INFO 5428 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 21:58:13.616  INFO 5428 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 21:58:13.993  INFO 5428 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:58:13.997  INFO 5428 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:58:20.251  INFO 5428 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 21:58:20.261  INFO 5428 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 21:58:20.593  INFO 5428 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:58:20.598  INFO 5428 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:58:23.772  INFO 5428 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 21:58:23.781  INFO 5428 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 21:58:24.105  INFO 5428 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:58:24.112  INFO 5428 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:58:41.478  INFO 5428 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.TypeShowController.types', args=[1, -1, {}]}
+2021-09-16 21:58:41.519  INFO 5428 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : types
+2021-09-16 21:58:41.921  INFO 5428 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:58:41.927  INFO 5428 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:58:43.331  INFO 5428 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/types/60', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.TypeShowController.types', args=[1, 60, {}]}
+2021-09-16 21:58:43.337  INFO 5428 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Result : types
+2021-09-16 21:58:43.535  INFO 5428 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:58:43.541  INFO 5428 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:58:44.511  INFO 5428 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/types/61', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.TypeShowController.types', args=[1, 61, {}]}
+2021-09-16 21:58:44.516  INFO 5428 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Result : types
+2021-09-16 21:58:44.732  INFO 5428 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:58:44.738  INFO 5428 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:58:45.213  INFO 5428 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/types/62', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.TypeShowController.types', args=[1, 62, {}]}
+2021-09-16 21:58:45.219  INFO 5428 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : types
+2021-09-16 21:58:45.422  INFO 5428 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:58:45.432  INFO 5428 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:58:47.686  INFO 5428 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 21:58:47.691  INFO 5428 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 21:58:47.925  INFO 5428 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:58:47.930  INFO 5428 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:58:51.678  INFO 5428 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.TypeShowController.types', args=[1, -1, {}]}
+2021-09-16 21:58:51.683  INFO 5428 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Result : types
+2021-09-16 21:58:51.867  INFO 5428 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:58:51.872  INFO 5428 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 21:58:53.249  INFO 5428 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 21:58:53.258  INFO 5428 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 21:58:53.509  INFO 5428 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 21:58:53.513  INFO 5428 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:04:59.364  INFO 5428 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:04:59.375  INFO 5428 --- [http-nio-8080-exec-10] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:04:59.884  INFO 5428 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:04:59.892  INFO 5428 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:11:04.369  INFO 14380 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 14380 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 22:11:04.369  INFO 14380 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 22:11:07.824  INFO 14380 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 4.395 seconds (JVM running for 6.532)
+2021-09-16 22:11:07.895  INFO 14380 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:11:08.157  INFO 14380 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:11:09.234  INFO 14380 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:11:09.243  INFO 14380 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:14:54.506  INFO 11960 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 11960 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 22:14:54.506  INFO 11960 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 22:14:57.801  INFO 11960 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 4.3 seconds (JVM running for 6.311)
+2021-09-16 22:15:00.474  INFO 11960 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:15:00.774  INFO 11960 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:15:01.159 ERROR 11960 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]" - line 147, col 66)
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]" - line 147, col 66)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1397)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: (Line = 147, Column = 66) Incomplete structure: "<a href="#" th:href="@{/about}" target="_blank" class="header"" >Dragenus</a></div>
+                                        </div>
+                                        <div class="item">
+                                            <i class="calendar icon"></i><span th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd')}"></span>
+                                        </div>
+                                        <div class="item">
+                                            <i class="eye icon"></i> <span th:text="${blog.views}">2222</span>
+                                        </div>
+                                        <div class="item">
+                                            <i class="comment outline icon"></i> <span th:text="${blog.commentCount}">2222</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right aligned five wide column">
+                                    <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin" th:text="${blog.typeName}">好文</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--博文图片-->
+                        <div class="five wide column">
+                            <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank">
+                                <img src="../static/images/backimg1.jpg" th:src="@{${blog.firstPicture}}"  alt="" class="ui rounded image">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--分页-->
+            <div class="ui bottom attached segment m-opacity stackable grid">
+                <div class="three wide column" align="center">
+                    <a class="item" th:href="@{/(pageNum=${pageInfo.hasPreviousPage}?${pageInfo.prePage}:1)}" th:unless="${pageInfo.isFirstPage}">上一页</a>
+                </div>
+
+                <div class="ten wide column" align="center">
+                    <p> <span th:text="${pageInfo.pageNum}"></span> / <span th:text="${pageInfo.pages}"></span> </p>
+                </div>
+
+                <div class="three wide column" align="center">
+                    <a class="item" th:href="@{/(pageNum=${pageInfo.hasNextPage}?${pageInfo.nextPage}:${pageInfo.pages})}" th:unless="${pageInfo.isLastPage}">下一页</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<!--置顶图标-->
+<div id="toolbar" class="m-padded-tb-large m-fixed m-right-bottom" style="display: none">
+    <div class="ui vertical icon buttons ">
+        <div class="ui center aligned basic segment" style="margin-bottom: 0">
+            <button id="payButton" class="ui orange basic circular button">消息</button>
+        </div>
+        <a href="#" class="ui center aligned basic segment icon" style="margin-top: 0"><i class="ui medium orange chevron up icon"></i> </a>
+    </div>
+</div>
+
+
+
+<br>
+<br>
+<br>
+<!--底部栏-->
+<footer class="ui inverted vertical segment m-padded-tb-massive m-opacity">
+    <!--容器-->
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="four wide column">
+                <div style="font-size: large;font-weight: bold" class="ui inverted m-text-thin m-text-spaced m-margin-top-max" >联系我</div>
+                <!--<div id="newblog-container">-->
+                <!--<div class="ui inverted link list" th:fragment="newblogList">-->
+                <!--<a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="item m-text-thin" th:each="blog : ${newblogs}" th:text="${blog.title}">最新文章</a>-->
+                <!--</div>-->
+                <!--</div>-->
+                <div class="ui inverted link list">
+                    <div href="#" class="m-text-thin">Email：Dragenus@foxmail.com</div>
+                    <div href="#" class="m-text-thin">QQ：1139430569</div>
+                </div>
+            </div>
+
+            <div class="four wide column" >
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <!--微信二维码-->
+                        <div style="font-size: large;font-weight: bold" class="ui inverted m-text-thin m-text-spaced " >关注公众号</div>
+                        <img src="../static/images/Dragenus.jpg" th:src="@{/images/Dragenus.jpg}"  class="ui m-margin-top rounded image" alt="" style="width: 110px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="four wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <!--微信二维码-->
+                        <div style="font-size: large;font-weight: bold" class="ui inverted m-text-thin m-text-spaced " >问题交流</div>
+                        <img src="../static/images/QQ-question.jpg" th:src="@{/images/QQ-question.jpg}"  class="ui m-margin-top rounded image" alt="" style="width: 110px">
+                    </div>
+                </div>
+            </div>
+            <!--博客运行时间统计-->
+            <div class="four wide column">
+                <div style="font-size: large;font-weight: bold" class="ui inverted  m-text-thin m-text-spaced m-margin-top">博客信息</div>
+                <!--<p id="htmer_time" class="item m-text-thin"></p>-->
+                <div id="blog-message">
+                    <div class="ui inverted link list" style="align-content: center;margin-top: 10px" th:fragment="blogMessage">
+                        <div class="m-text-thin" style="text-align: left;margin-left: 75px;">
+                            文章总数： <h2 class="ui orange header m-inline-block m-margin-top-null" style="font-size:medium;" th:text="${blogTotal}"> 14 </h2> 篇
+                        </div>
+                        <div class="m-text-thin" style="text-align: left;margin-left: 75px">
+                            访问总数： <h2 class="ui orange header m-inline-block m-margin-top-null" style="font-size:medium;" th:text="${blogViewTotal}"> 14 </h2> 次
+                        </div>
+                        <div class="m-text-thin" style="text-align: left;margin-left: 75px">
+                            评论总数： <h2 class="ui orange header m-inline-block m-margin-top-null" style="font-size:medium;" th:text="${blogCommentTotal}"> 14 </h2> 条
+                        </div>
+                        <div class="m-text-thin" style="text-align: left;margin-left: 75px">
+                            留言总数： <h2 class="ui orange header m-inline-block m-margin-top-null" style="font-size:medium;" th:text="${blogMessageTotal}"> 14 </h2> 条
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <div style="color: #F08047;margin-top: -18px" class="ui inverted m-text-thin m-text-spaced">我的博客已营业：<span id="htmer_time" class="item m-text-thin"></span> ヽ(??▽?)ノ</div>
+        <a rel="nofollow" href="http://www.beian.miit.gov.cn" target="_blank">---尚无---</a>
+    </div>
+    </div>
+
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+<script src="../static/lib/waypoints/jquery.waypoints.min.js" th:src="@{/lib/waypoints/jquery.waypoints.min.js}"></script>
+
+<script>
+
+    // $('#newblog-container').load(/*[[@{/footer/newblog}]]*/"/footer/newblog");
+
+    $('#blog-message').load(/*[[@{/footer/blogmessage}]]*/"/footer/blogmessage");
+
+
+    // 运行时间统计
+    function secondToDate(second) {
+        if (!second) {
+            return 0;
+        }
+        var time = new Array(0, 0, 0, 0, 0);
+        if (second >= 365 * 24 * 3600) {
+            time[0] = parseInt(second / (365 * 24 * 3600));
+            second %= 365 * 24 * 3600;
+        }
+        if (second >= 24 * 3600) {
+            time[1] = parseInt(second / (24 * 3600));
+            second %= 24 * 3600;
+        }
+        if (second >= 3600) {
+            time[2] = parseInt(second / 3600);
+            second %= 3600;
+        }
+        if (second >= 60) {
+            time[3] = parseInt(second / 60);
+            second %= 60;
+        }
+        if (second > 0) {
+            time[4] = second;
+        }
+        return time;
+    }
+    function setTime() {
+        /*此处为网站的创建时间*/
+        var create_time = Math.round(new Date(Date.UTC(2021, 08, 13, 00, 00, 00)).getTime() / 1000);
+        var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+        currentTime = secondToDate((timestamp - create_time));
+        currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'
+            + currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4]
+            + '秒';
+        document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+    }
+    setInterval(setTime, 1000);
+
+
+    var waypoint = new Waypoint({
+        element: document.getElementById('waypoint'),
+        handler: function(direction) {
+            if (direction == 'down') {
+                $('#toolbar').show(100);
+            } else {
+                $('#toolbar').hide(500);
+            }
+            console.log('Scrolled to waypoint!  ' + direction);
+        }
+    })
+
+
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-show');
+
+    });
+
+    // 显示公众号
+    $('.tencent').popup({
+        popup : $('.tencent-qr'),
+        position: 'bottom center'
+    });
+
+    // 显示微信
+    $('.wechat').popup({
+        popup : $('.wechat-qr'),
+        position: 'bottom center'
+    });
+
+    // 显示QQ
+    $('.qq').popup({
+        popup : $('.qq-qr'),
+        position: 'bottom center'
+    });
+
+    // 显示邮箱
+    $('.email').popup();
+
+    // 显示CSDN
+    $('.csdn').popup();
+
+    // 显示github
+    $('.github').popup();
+
+    // 导航栏显示
+    var waypoint = new Waypoint({
+        element: document.getElementById('waypoint'),
+        handler: function(direction) {
+            if (direction == 'down') {
+                $('#nav').show(500);
+            } else {
+                $('#nav').hide(500);
+            }
+            console.log('Scrolled to waypoint!  ' + direction);
+        }
+    })
+</script>
+</body>
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+
+2021-09-16 22:15:01.167 ERROR 11960 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]" - line 147, col 66)] with root cause
+
+org.attoparser.ParseException: (Line = 147, Column = 66) Incomplete structure: "<a href="#" th:href="@{/about}" target="_blank" class="header"" >Dragenus</a></div>
+                                        </div>
+                                        <div class="item">
+                                            <i class="calendar icon"></i><span th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd')}"></span>
+                                        </div>
+                                        <div class="item">
+                                            <i class="eye icon"></i> <span th:text="${blog.views}">2222</span>
+                                        </div>
+                                        <div class="item">
+                                            <i class="comment outline icon"></i> <span th:text="${blog.commentCount}">2222</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right aligned five wide column">
+                                    <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin" th:text="${blog.typeName}">好文</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--博文图片-->
+                        <div class="five wide column">
+                            <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank">
+                                <img src="../static/images/backimg1.jpg" th:src="@{${blog.firstPicture}}"  alt="" class="ui rounded image">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--分页-->
+            <div class="ui bottom attached segment m-opacity stackable grid">
+                <div class="three wide column" align="center">
+                    <a class="item" th:href="@{/(pageNum=${pageInfo.hasPreviousPage}?${pageInfo.prePage}:1)}" th:unless="${pageInfo.isFirstPage}">上一页</a>
+                </div>
+
+                <div class="ten wide column" align="center">
+                    <p> <span th:text="${pageInfo.pageNum}"></span> / <span th:text="${pageInfo.pages}"></span> </p>
+                </div>
+
+                <div class="three wide column" align="center">
+                    <a class="item" th:href="@{/(pageNum=${pageInfo.hasNextPage}?${pageInfo.nextPage}:${pageInfo.pages})}" th:unless="${pageInfo.isLastPage}">下一页</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<!--置顶图标-->
+<div id="toolbar" class="m-padded-tb-large m-fixed m-right-bottom" style="display: none">
+    <div class="ui vertical icon buttons ">
+        <div class="ui center aligned basic segment" style="margin-bottom: 0">
+            <button id="payButton" class="ui orange basic circular button">消息</button>
+        </div>
+        <a href="#" class="ui center aligned basic segment icon" style="margin-top: 0"><i class="ui medium orange chevron up icon"></i> </a>
+    </div>
+</div>
+
+
+
+<br>
+<br>
+<br>
+<!--底部栏-->
+<footer class="ui inverted vertical segment m-padded-tb-massive m-opacity">
+    <!--容器-->
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="four wide column">
+                <div style="font-size: large;font-weight: bold" class="ui inverted m-text-thin m-text-spaced m-margin-top-max" >联系我</div>
+                <!--<div id="newblog-container">-->
+                <!--<div class="ui inverted link list" th:fragment="newblogList">-->
+                <!--<a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="item m-text-thin" th:each="blog : ${newblogs}" th:text="${blog.title}">最新文章</a>-->
+                <!--</div>-->
+                <!--</div>-->
+                <div class="ui inverted link list">
+                    <div href="#" class="m-text-thin">Email：Dragenus@foxmail.com</div>
+                    <div href="#" class="m-text-thin">QQ：1139430569</div>
+                </div>
+            </div>
+
+            <div class="four wide column" >
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <!--微信二维码-->
+                        <div style="font-size: large;font-weight: bold" class="ui inverted m-text-thin m-text-spaced " >关注公众号</div>
+                        <img src="../static/images/Dragenus.jpg" th:src="@{/images/Dragenus.jpg}"  class="ui m-margin-top rounded image" alt="" style="width: 110px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="four wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <!--微信二维码-->
+                        <div style="font-size: large;font-weight: bold" class="ui inverted m-text-thin m-text-spaced " >问题交流</div>
+                        <img src="../static/images/QQ-question.jpg" th:src="@{/images/QQ-question.jpg}"  class="ui m-margin-top rounded image" alt="" style="width: 110px">
+                    </div>
+                </div>
+            </div>
+            <!--博客运行时间统计-->
+            <div class="four wide column">
+                <div style="font-size: large;font-weight: bold" class="ui inverted  m-text-thin m-text-spaced m-margin-top">博客信息</div>
+                <!--<p id="htmer_time" class="item m-text-thin"></p>-->
+                <div id="blog-message">
+                    <div class="ui inverted link list" style="align-content: center;margin-top: 10px" th:fragment="blogMessage">
+                        <div class="m-text-thin" style="text-align: left;margin-left: 75px;">
+                            文章总数： <h2 class="ui orange header m-inline-block m-margin-top-null" style="font-size:medium;" th:text="${blogTotal}"> 14 </h2> 篇
+                        </div>
+                        <div class="m-text-thin" style="text-align: left;margin-left: 75px">
+                            访问总数： <h2 class="ui orange header m-inline-block m-margin-top-null" style="font-size:medium;" th:text="${blogViewTotal}"> 14 </h2> 次
+                        </div>
+                        <div class="m-text-thin" style="text-align: left;margin-left: 75px">
+                            评论总数： <h2 class="ui orange header m-inline-block m-margin-top-null" style="font-size:medium;" th:text="${blogCommentTotal}"> 14 </h2> 条
+                        </div>
+                        <div class="m-text-thin" style="text-align: left;margin-left: 75px">
+                            留言总数： <h2 class="ui orange header m-inline-block m-margin-top-null" style="font-size:medium;" th:text="${blogMessageTotal}"> 14 </h2> 条
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <div style="color: #F08047;margin-top: -18px" class="ui inverted m-text-thin m-text-spaced">我的博客已营业：<span id="htmer_time" class="item m-text-thin"></span> ヽ(??▽?)ノ</div>
+        <a rel="nofollow" href="http://www.beian.miit.gov.cn" target="_blank">---尚无---</a>
+    </div>
+    </div>
+
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+<script src="../static/lib/waypoints/jquery.waypoints.min.js" th:src="@{/lib/waypoints/jquery.waypoints.min.js}"></script>
+
+<script>
+
+    // $('#newblog-container').load(/*[[@{/footer/newblog}]]*/"/footer/newblog");
+
+    $('#blog-message').load(/*[[@{/footer/blogmessage}]]*/"/footer/blogmessage");
+
+
+    // 运行时间统计
+    function secondToDate(second) {
+        if (!second) {
+            return 0;
+        }
+        var time = new Array(0, 0, 0, 0, 0);
+        if (second >= 365 * 24 * 3600) {
+            time[0] = parseInt(second / (365 * 24 * 3600));
+            second %= 365 * 24 * 3600;
+        }
+        if (second >= 24 * 3600) {
+            time[1] = parseInt(second / (24 * 3600));
+            second %= 24 * 3600;
+        }
+        if (second >= 3600) {
+            time[2] = parseInt(second / 3600);
+            second %= 3600;
+        }
+        if (second >= 60) {
+            time[3] = parseInt(second / 60);
+            second %= 60;
+        }
+        if (second > 0) {
+            time[4] = second;
+        }
+        return time;
+    }
+    function setTime() {
+        /*此处为网站的创建时间*/
+        var create_time = Math.round(new Date(Date.UTC(2021, 08, 13, 00, 00, 00)).getTime() / 1000);
+        var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+        currentTime = secondToDate((timestamp - create_time));
+        currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'
+            + currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4]
+            + '秒';
+        document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+    }
+    setInterval(setTime, 1000);
+
+
+    var waypoint = new Waypoint({
+        element: document.getElementById('waypoint'),
+        handler: function(direction) {
+            if (direction == 'down') {
+                $('#toolbar').show(100);
+            } else {
+                $('#toolbar').hide(500);
+            }
+            console.log('Scrolled to waypoint!  ' + direction);
+        }
+    })
+
+
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-show');
+
+    });
+
+    // 显示公众号
+    $('.tencent').popup({
+        popup : $('.tencent-qr'),
+        position: 'bottom center'
+    });
+
+    // 显示微信
+    $('.wechat').popup({
+        popup : $('.wechat-qr'),
+        position: 'bottom center'
+    });
+
+    // 显示QQ
+    $('.qq').popup({
+        popup : $('.qq-qr'),
+        position: 'bottom center'
+    });
+
+    // 显示邮箱
+    $('.email').popup();
+
+    // 显示CSDN
+    $('.csdn').popup();
+
+    // 显示github
+    $('.github').popup();
+
+    // 导航栏显示
+    var waypoint = new Waypoint({
+        element: document.getElementById('waypoint'),
+        handler: function(direction) {
+            if (direction == 'down') {
+                $('#nav').show(500);
+            } else {
+                $('#nav').hide(500);
+            }
+            console.log('Scrolled to waypoint!  ' + direction);
+        }
+    })
+</script>
+</body>
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1397)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-09-16 22:15:01.221 ERROR 11960 --- [http-nio-8080-exec-1] s.e.ErrorMvcAutoConfiguration$StaticView : Cannot render error page for request [/] and exception [An error happened during template parsing (template: "class path resource [templates/index.html]" - line 147, col 66)] as the response has already been committed. As a result, the response may have the wrong status code.
+2021-09-16 22:15:17.426  INFO 9220 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 9220 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 22:15:17.441  INFO 9220 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 22:15:20.940  INFO 9220 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 4.443 seconds (JVM running for 6.15)
+2021-09-16 22:15:22.919  INFO 9220 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:15:23.208  INFO 9220 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:15:24.015  INFO 9220 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:15:24.023  INFO 9220 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:18:12.613  INFO 16464 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 16464 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 22:18:12.619  INFO 16464 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 22:18:15.774  INFO 16464 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 4.231 seconds (JVM running for 6.139)
+2021-09-16 22:18:16.088  INFO 16464 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:18:16.538  INFO 16464 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:18:17.666  INFO 16464 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:18:17.674  INFO 16464 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:18:19.768  INFO 16464 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:18:19.779  INFO 16464 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:18:20.046  INFO 16464 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:18:20.050  INFO 16464 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:18:21.842  INFO 16464 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:18:21.851  INFO 16464 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:18:22.097  INFO 16464 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:18:22.104  INFO 16464 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:18:44.926  INFO 15252 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 15252 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 22:18:44.930  INFO 15252 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 22:18:48.240  INFO 15252 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 4.189 seconds (JVM running for 6.414)
+2021-09-16 22:18:48.327  INFO 15252 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:18:48.559  INFO 15252 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:18:49.159 ERROR 15252 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1397)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "/about" (template: "index" - line 147, col 78)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "/about" (template: "index" - line 147, col 78)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+
+2021-09-16 22:18:49.165 ERROR 15252 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "/about" (template: "index" - line 147, col 78)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1397)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-09-16 22:18:49.214 ERROR 15252 --- [http-nio-8080-exec-1] s.e.ErrorMvcAutoConfiguration$StaticView : Cannot render error page for request [/] and exception [An error happened during template parsing (template: "class path resource [templates/index.html]")] as the response has already been committed. As a result, the response may have the wrong status code.
+2021-09-16 22:18:54.522  INFO 15252 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:18:54.533  INFO 15252 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:18:54.551 ERROR 15252 --- [http-nio-8080-exec-3] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-3] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1397)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "/about" (template: "index" - line 147, col 78)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "/about" (template: "index" - line 147, col 78)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+
+2021-09-16 22:18:54.553 ERROR 15252 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "/about" (template: "index" - line 147, col 78)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1397)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-09-16 22:18:54.564 ERROR 15252 --- [http-nio-8080-exec-3] s.e.ErrorMvcAutoConfiguration$StaticView : Cannot render error page for request [/] and exception [An error happened during template parsing (template: "class path resource [templates/index.html]")] as the response has already been committed. As a result, the response may have the wrong status code.
+2021-09-16 22:19:13.223  INFO 760 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 760 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 22:19:13.228  INFO 760 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 22:19:16.668  INFO 760 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 4.361 seconds (JVM running for 6.503)
+2021-09-16 22:19:16.904  INFO 760 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:19:17.371  INFO 760 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:19:18.393  INFO 760 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:19:18.404  INFO 760 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:24:08.481  INFO 14052 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 14052 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 22:24:08.485  INFO 14052 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 22:24:11.914  INFO 14052 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 4.45 seconds (JVM running for 6.187)
+2021-09-16 22:24:12.080  INFO 14052 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:24:12.336  INFO 14052 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:24:13.619  INFO 14052 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:24:13.629  INFO 14052 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:24:15.735  INFO 14052 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:24:15.745  INFO 14052 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:24:16.059  INFO 14052 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:24:16.065  INFO 14052 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:24:49.481  INFO 12112 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 12112 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 22:24:49.484  INFO 12112 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 22:24:52.657  INFO 12112 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 4.151 seconds (JVM running for 6.018)
+2021-09-16 22:24:53.458  INFO 12112 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:24:53.710  INFO 12112 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:24:54.770  INFO 12112 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:24:54.777  INFO 12112 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:24:59.012  INFO 12112 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:24:59.023  INFO 12112 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:24:59.278  INFO 12112 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:24:59.283  INFO 12112 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:26:24.080  INFO 16324 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 16324 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 22:26:24.084  INFO 16324 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 22:26:27.711  INFO 16324 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 4.463 seconds (JVM running for 6.415)
+2021-09-16 22:26:28.362  INFO 16324 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:26:28.592  INFO 16324 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:26:29.578  INFO 16324 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:26:29.586  INFO 16324 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:26:31.893  INFO 16324 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:26:31.901  INFO 16324 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:26:32.139  INFO 16324 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:26:32.144  INFO 16324 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:26:45.800  INFO 8516 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 8516 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 22:26:45.800  INFO 8516 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 22:26:49.266  INFO 8516 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 4.448 seconds (JVM running for 6.796)
+2021-09-16 22:27:00.129  INFO 8516 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:27:00.377  INFO 8516 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:27:01.184  INFO 8516 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:27:01.191  INFO 8516 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:27:25.291  INFO 7828 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 7828 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 22:27:25.295  INFO 7828 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 22:27:28.599  INFO 7828 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 4.154 seconds (JVM running for 5.89)
+2021-09-16 22:27:32.096  INFO 7828 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:27:32.338  INFO 7828 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:27:33.149  INFO 7828 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:27:33.160  INFO 7828 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:27:35.202  INFO 7828 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:27:35.212  INFO 7828 --- [http-nio-8080-exec-7] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:27:35.471  INFO 7828 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:27:35.480  INFO 7828 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:27:38.242  INFO 7828 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:27:38.253  INFO 7828 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:27:38.514  INFO 7828 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:27:38.522  INFO 7828 --- [http-nio-8080-exec-9] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:27:54.643  INFO 9340 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 9340 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 22:27:54.648  INFO 9340 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 22:27:57.972  INFO 9340 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 4.273 seconds (JVM running for 5.999)
+2021-09-16 22:28:04.604  INFO 9340 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:28:04.848  INFO 9340 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:28:05.621  INFO 9340 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:28:05.628  INFO 9340 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:28:09.893  INFO 9340 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:28:09.904  INFO 9340 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:28:10.151  INFO 9340 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:28:10.156  INFO 9340 --- [http-nio-8080-exec-8] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:28:11.575  INFO 9340 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:28:11.585  INFO 9340 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:28:11.851  INFO 9340 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:28:11.858  INFO 9340 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:28:24.421  INFO 16392 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 16392 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2021-09-16 22:28:24.423  INFO 16392 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2021-09-16 22:28:28.204  INFO 16392 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 4.615 seconds (JVM running for 6.373)
+2021-09-16 22:28:31.140  INFO 16392 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:28:31.140  INFO 16392 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:28:31.423  INFO 16392 --- [http-nio-8080-exec-2] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:28:31.434  INFO 16392 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:28:32.358  INFO 16392 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:28:32.366  INFO 16392 --- [http-nio-8080-exec-4] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
+2021-09-16 22:28:35.236  INFO 16392 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2021-09-16 22:28:35.245  INFO 16392 --- [http-nio-8080-exec-6] com.myblog.aspect.LogAspect              : Result : index
+2021-09-16 22:28:35.526  INFO 16392 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2021-09-16 22:28:35.532  INFO 16392 --- [http-nio-8080-exec-5] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
