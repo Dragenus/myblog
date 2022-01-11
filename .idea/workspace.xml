@@ -14,6 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16a87a03-e922-45cd-aa71-d4ed323101c1" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,17 +54,6 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.myblog.MyblogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="myblog" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.myblog.MyblogApplication" />
@@ -86,6 +76,7 @@
       <workItem from="1641894860560" duration="184000" />
       <workItem from="1641895156532" duration="28000" />
       <workItem from="1641895218708" duration="2483000" />
+      <workItem from="1641899361420" duration="265000" />
     </task>
     <servers />
   </component>
