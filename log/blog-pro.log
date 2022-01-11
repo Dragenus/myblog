@@ -1,0 +1,13 @@
+2022-01-11 20:54:57.039  INFO 15076 --- [main] com.myblog.MyblogApplicationTests        : Starting MyblogApplicationTests using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 15076 (started by Knight in D:\JAVA\Java-Project\myblog)
+2022-01-11 20:54:57.040  INFO 15076 --- [main] com.myblog.MyblogApplicationTests        : The following profiles are active: pro
+2022-01-11 20:55:12.583  INFO 15076 --- [main] com.myblog.MyblogApplicationTests        : Started MyblogApplicationTests in 16.775 seconds (JVM running for 18.555)
+2022-01-11 20:58:59.680  INFO 14484 --- [main] com.myblog.MyblogApplicationTests        : Starting MyblogApplicationTests using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 14484 (started by Knight in D:\JAVA\Java-Project\myblog)
+2022-01-11 20:58:59.682  INFO 14484 --- [main] com.myblog.MyblogApplicationTests        : The following profiles are active: pro
+2022-01-11 20:59:08.296  INFO 14484 --- [main] com.myblog.MyblogApplicationTests        : Started MyblogApplicationTests in 9.472 seconds (JVM running for 11.145)
+2022-01-11 21:01:07.649  INFO 12548 --- [restartedMain] com.myblog.MyblogApplication             : Starting MyblogApplication using Java 1.8.0_251 on DESKTOP-A7NM3BO with PID 12548 (D:\JAVA\Java-Project\myblog\target\classes started by Knight in D:\JAVA\Java-Project\myblog)
+2022-01-11 21:01:07.657  INFO 12548 --- [restartedMain] com.myblog.MyblogApplication             : The following profiles are active: pro
+2022-01-11 21:01:12.407  INFO 12548 --- [restartedMain] com.myblog.MyblogApplication             : Started MyblogApplication in 5.936 seconds (JVM running for 8.502)
+2022-01-11 21:01:31.292  INFO 12548 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.index', args=[{}, 1, {}]}
+2022-01-11 21:01:33.779  INFO 12548 --- [http-nio-8080-exec-1] com.myblog.aspect.LogAspect              : Result : index
+2022-01-11 21:01:40.128  INFO 12548 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.myblog.controller.IndexController.blogMessage', args=[{}]}
+2022-01-11 21:01:40.435  INFO 12548 --- [http-nio-8080-exec-3] com.myblog.aspect.LogAspect              : Result : index :: blogMessage
