@@ -13,10 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a87a03-e922-45cd-aa71-d4ed323101c1" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="16a87a03-e922-45cd-aa71-d4ed323101c1" name="默认的" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +73,7 @@
       <workItem from="1641894860560" duration="184000" />
       <workItem from="1641895156532" duration="28000" />
       <workItem from="1641895218708" duration="2483000" />
-      <workItem from="1641899361420" duration="883000" />
+      <workItem from="1641899361420" duration="1192000" />
     </task>
     <servers />
   </component>
